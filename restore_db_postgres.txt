@@ -1,7 +1,5 @@
 //Restaurar DB PostgreSQL en terminal Linux mint.
 
-//Cd carpeta de nuestro respaldo
+Cd carpeta_de_nuestro_respaldo
 $ psql -h localhost -p 5432 -U postgres -f respaldo.sql nueva
 
-//Donde:
-psql -h localhost -p 5432 -U usuario -f respaldo.sql nueva //nueva, es la DB en pgAdmin4
