@@ -4,4 +4,4 @@
 $ psql -h localhost -p 5432 -U postgres -f respaldo.sql nueva
 
 //Donde:
-//psql -h localhost -p 5432 (puerto) -U usuario -f respaldo.sql nueva ('nueva' es la DB en pgAdmin4)
+psql -h localhost -p 5432 -U usuario -f respaldo.sql nueva //nueva, es la DB en pgAdmin4
